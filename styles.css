@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=PT+Sans&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagenes/programming.jpg);
+    background-size: cover;
+}
+#titulo {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+/* <!-- ----------------------------------------------- NAVEGADOR -----------------------------------------------  --> */
+
+nav ul {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    background-image: url(imagenes/navimage.jpg);
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+}
+ul:hover > li a:is(:hover){
+    transform: scale(1.15) translateZ(0);
+    color: rgb(253, 253, 253);
+}
+ul:hover > li:not(:hover){
+    transform:scale(.9);
+    filter: blur(5px);
+}
+li {
+    cursor: pointer;
+}
+a {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.logo {
+    width: 100px;
+    height: 80px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 0px;
+}
+
+/* <!-- ----------------------------------------------- INICIO -----------------------------------------------  --> */
+
+#titulo-inicio {
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px;
+}
+.texto-introduccion {
+    font-family: 'PT Sans', sans-serif;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+section {
+    padding: 20px;
+    margin-top: 50px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    width: 118rem;
+    height: 25rem;
+    box-shadow: 0 0 1rem 0 rgba(255, 255, 255, 0.093);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.051);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: row;
+}
+.imagen-inicio {
+    width: 300px;
+    height: 300px;
+    margin-right: 300px;
+    border-radius: 30%;
+    margin-left: -100px;
+}
+
+/* <!-- ----------------------------------------------- MÉTODO FIND -----------------------------------------------  --> */
+
+.titulo-find {
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+h2 {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    margin-left: 70px;
+    text-align: left;
+}
+.texto-find {
+    font-family: 'PT Sans', sans-serif;
+    font-size: x-large;
+    color: white;
+    margin-left: 70px;
+    margin-top: 30px;
+    text-align: left;
+}
+.imagen-find {
+    margin-top: 25px;
+    margin-left: 70px;
+    margin-bottom: 25px;
+}
+.subtitulo-utilizar {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    margin-right: 70px;
+    text-align: right;
+}
+.texto-find-dos {
+    font-family: 'PT Sans', sans-serif;
+    font-size: x-large;
+    color: white;
+    margin-right: 70px;
+    margin-top: 30px;
+    text-align: right;
+}
+.imagen-find-dos {
+    margin-top: 25px;
+    margin-left: 1130px;
+    margin-bottom: 25px;
+    width: 700px;
+    height: 300px;
+}
+
+/* <!-- ----------------------------------------------- MÉTODO FINDINDEX -----------------------------------------------  --> */
+
+.titulo-findindex {
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.texto-findindex {
+    font-family: 'PT Sans', sans-serif;
+    font-size: x-large;
+    color: white;
+    margin-left: 70px;
+    margin-top: 30px;
+    text-align: left;
+}
+.texto-findindex-dos {
+    font-family: 'PT Sans', sans-serif;
+    font-size: x-large;
+    color: white;
+    margin-right: 70px;
+    margin-top: 30px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- ----------------------------------------------- FOOTER -----------------------------------------------  --> */
+
+footer{
+    background-color:black;
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+.texto-footer {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    text-align: right;
+    margin-right: 30px;
+}
